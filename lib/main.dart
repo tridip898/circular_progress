@@ -1,3 +1,4 @@
+import 'package:circle_design/screens/circle_with_sleek.dart';
 import 'package:circle_design/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       getPages: [
-        GetPage(name: '/', page: ()=>const HomeScreen())
+        GetPage(name: '/', page: ()=>const HomeScreen()),
+        GetPage(name: '/sleek', page: ()=>const CircleSleekSlider()),
       ],
     );
   }
