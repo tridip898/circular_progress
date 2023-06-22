@@ -23,7 +23,7 @@ class ProgressPaint extends CustomPainter {
       ..strokeCap = StrokeCap.round
       ..style = PaintingStyle.stroke
       ..color = Colors.white
-      ..strokeWidth = 25 - 10;
+      ..strokeWidth = 25 - 8;
 
     final whiteBackgroundPaint = Paint()
       ..strokeCap = StrokeCap.round
@@ -46,7 +46,7 @@ class ProgressPaint extends CustomPainter {
     canvas.drawArc(Rect.fromCircle(center: center, radius: radius),
         startAngle + 1.9, sweepAngle + 4.3, false, whiteBackgroundPaint);
     canvas.drawArc(Rect.fromCircle(center: center, radius: radius),
-        startAngle + 1.9, sweepAngle + 1.1, false, greenCircle);
+        startAngle + 2.9, sweepAngle + 1.1, false, greenCircle);
     canvas.drawArc(Rect.fromCircle(center: center, radius: radius),
         startAngle + 0.4, sweepAngle + 1, false, pinkCircle);
     canvas.drawArc(Rect.fromCircle(center: center, radius: radius),
