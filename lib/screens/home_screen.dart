@@ -31,8 +31,15 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Text("Period",style: TextStyle(fontSize: 30,color: Colors.black,fontWeight: FontWeight.w500),),
-                    Text("3rd Day",style: TextStyle(fontSize: 20,color: Colors.pink)),
+                    Text(
+                      "Period",
+                      style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.black,
+                          fontWeight: FontWeight.w500),
+                    ),
+                    Text("3rd Day",
+                        style: TextStyle(fontSize: 20, color: Colors.pink)),
                   ],
                 ),
               ),
